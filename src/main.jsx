@@ -7,6 +7,8 @@ import About from './pages/about.jsx';
 import NotFound from './pages/notfound.jsx';
 import Product from './pages/product.jsx';
 import Cart from './pages/cart.jsx';
+import SuccessResponse from './pages/successResponse.jsx';
+import Login from './pages/login.jsx';
 
 
 
@@ -20,6 +22,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/product" element ={<Product/>} >
       </Route>
       <Route path="/cart" element ={<Cart/>} >
+      </Route>
+      <Route path="/success" element ={<SuccessResponse/>} >
+      </Route>
+      <Route path="/login" element ={<Login/>} >
       </Route>
       <Route path="*" element ={<NotFound/>} >
       </Route>

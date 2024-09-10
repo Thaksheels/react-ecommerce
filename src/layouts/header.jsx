@@ -22,6 +22,7 @@ return (
           <li><Link to="/services" >Services</Link></li>
           <li><Link to="/blog" >Blog</Link></li>
           <li><Link to="/contact" >Contact</Link></li>
+          <li><Link to="/login" >login</Link></li>
         </ul>
         <a href="#" className="primary_btn">Button</a>
       </div>
